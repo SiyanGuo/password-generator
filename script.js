@@ -33,8 +33,9 @@ function confirmLength() {
 
 //function to generate random password based on the prompts
 function generatePassword() {
-  //when user click on the button second time, reset the pwd to empty string;
+  //when user click on the button second time, reset the pwd and chaType to empty string;
   pwd = '';
+  chaType='';
   confirmLength();
 
   // if user cancel the prompt, returning the default message and they can start it again
